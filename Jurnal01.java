@@ -1,4 +1,4 @@
-public class jurnal01{
+public class Jurnal01{
     public static void main(String[] args) {
     }
 }
