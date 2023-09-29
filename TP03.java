@@ -16,7 +16,7 @@ public class TP03 {
 
         // Menampilkan hasil pembagian dan sisa permen
         System.out.println(hasilPembagian);
-        System.out.println(N-(hasilPembagian*(T +1));
+        System.out.println(N-(hasilPembagian*(T +1)));
 
         input.close();
     }

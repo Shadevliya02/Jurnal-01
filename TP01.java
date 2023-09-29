@@ -1,7 +1,11 @@
+import java.util.Scanner;
+
+public class TP01{
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println ("Masukkan 2 Suhu Celcius): ");
+        System.out.println ("Masukkan 2 Suhu Celcius: ");
         int suhuX = input.nextInt();
         int suhuY = input.nextInt();
 
@@ -14,9 +18,10 @@
             double k2 = suhuY + 273.15;
 
         // hasil konversi
-        System.out.println(" %.1f F, %.1f F\n ", f1, f2);
-        System.out.println(" %.2f K, %.2f K\n ", k1, k2);
+        System.out.printf("%.1f F, %.1f F\n", f1, f2);
+        System.out.printf("%.2f K, %.2f K", k1, k2);
 
         input.close();
-    }
+    }
+
 }
